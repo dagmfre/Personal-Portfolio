@@ -32,7 +32,7 @@ const About = () => {
 
   return (
     <div className="about" id="about">
-      <div data-aos="fade-right" class="about-title">
+      <div data-aos="fade-right" className="about-title">
         <h1>|</h1>
         <h3>About me</h3> <hr></hr>
       </div>
@@ -212,7 +212,7 @@ const About = () => {
               </p>
             </div>
             <div data-aos="fade-down" className="btn-shiny-border educ educ2">
-              <i class="fa-brands fa-free-code-camp"></i>
+              <i className="fa-brands fa-free-code-camp"></i>
               <p>
                 <b>Structured Learning using free resources: </b> Then continue
                 developing my skills, using online free resources like

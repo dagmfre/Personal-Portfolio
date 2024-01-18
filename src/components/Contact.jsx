@@ -49,7 +49,7 @@ const Contact = () => {
         </div>
         <div className="contc-child2">
           <div data-aos="fade-right" className="contc-info-cont">
-            <i class="fa-solid fa-location-dot"></i>
+            <i className="fa-solid fa-location-dot"></i>
             <div className="location">
               <p className="contc-info">
                 Lideta Subcity, Addis Ababa, Ethiopia.
@@ -57,14 +57,14 @@ const Contact = () => {
             </div>
           </div>
           <div data-aos="fade-right" className="contc-info-cont phone-cont">
-            <i class="fa-solid fa-phone-volume"></i>
+            <i className="fa-solid fa-phone-volume"></i>
             <div>
               <p className="contc-info phone">+251 965555075</p>
               <p className="contc-info phone">+251 913645440</p>
             </div>
           </div>
           <div data-aos="fade-right" className="contc-info-cont email-cont">
-            <i class="fa-regular fa-envelope"></i>
+            <i className="fa-regular fa-envelope"></i>
             <div className="email">
               <p className="contc-info">dagmfre@gmail.com</p>
             </div>
@@ -172,16 +172,16 @@ const Contact = () => {
               </button>
             </Box>
           </div>
-          <div data-aos="fade-up" class="gmap-cont">
+          <div data-aos="fade-up" className="gmap-cont">
             <h3>My location</h3>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7881.119769507889!2d38.7312243687866!3d9.012581608815749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1698219230097!5m2!1sen!2set"
               width="600"
               height="450"
               style={{ border: "0" }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
               title="gmap"
             ></iframe>{" "}
           </div>

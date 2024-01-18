@@ -106,13 +106,13 @@ function Hero() {
               <div id="nav" className={isNavOpen ? "show" : ""}>
                 <ul className="ul">
                   <li className="li li1">
-                    <a href="#">Home</a>
-                  </li>
-                  <li className="li li2">
                     <a href="#about">About</a>
                   </li>
-                  <li className="li li3">
+                  <li className="li li2">
                     <a href="#service">Service</a>
+                  </li>
+                  <li className="li li3">
+                    <a href="#works">Works</a>
                   </li>
                   <li className="li li4">
                     <a href="#contact">Contact</a>
@@ -126,9 +126,8 @@ function Hero() {
               </div>
 
               <div
-                class="dark-blue"
                 id="blue"
-                className={isNavOpen ? "slide" : ""}
+                className={isNavOpen ? "slide" : "dark-blue"}
               ></div>
             </div>
             <li className="nav-item last-link2">
@@ -172,10 +171,10 @@ function Hero() {
                 <span data-aos="fade-right" className="niche">
                   <Typed
                     strings={[
-                      "<i class='fas fa-solid fa-laptop-code'></i>Front-end Developer.",
-                      "<i class='fas fa-brands fa-react'></i>React Developer.",
-                      "<i class='fas fa-solid fa-database'></i>Back-end Engineer.",
-                      "<i class='fas fa-solid fa-object-ungroup'></i>UI/UX Enthusiast.",
+                      "<i className='fas fa-solid fa-laptop-code'></i>Front-end Developer.",
+                      "<i className='fas fa-brands fa-react'></i>React Developer.",
+                      "<i className='fas fa-solid fa-database'></i>Back-end Engineer.",
+                      "<i className='fas fa-solid fa-object-ungroup'></i>UI/UX Enthusiast.",
                     ]}
                     typeSpeed={90}
                     delaySpeed={90}
@@ -204,19 +203,19 @@ function Hero() {
               <div data-aos="slide-up" className="platform-cont">
                 <div className="platform1">
                   <a href="https://github.com/dagmfre">
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                   </a>
                   <a href="https://www.linkedin.com/in/dagmfre-seid-51a094214">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                   <a href="https://twitter.com/DagmfreS">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-twitter"></i>
                   </a>
                   <a href="https://t.me/dag65">
-                    <i class="fa-brands fa-telegram"></i>
+                    <i className="fa-brands fa-telegram"></i>
                   </a>
                   <a href="https://www.tiktok.com/@dagmfre">
-                    <i class="fa-brands fa-tiktok"></i>
+                    <i className="fa-brands fa-tiktok"></i>
                   </a>
                 </div>
                 <div className="platform2"></div>

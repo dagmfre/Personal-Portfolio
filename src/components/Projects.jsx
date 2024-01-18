@@ -41,9 +41,9 @@ const Projects = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
-                <a id={"proj-image-gallery"} href="javascript:void(0)">
+                <div id="proj-image-gallery" href="/#">
                   <a
                     href="nova.png"
                     data-pswp-width={"1320"}
@@ -51,7 +51,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
                   <a
                     href="nova2.png"
@@ -85,7 +85,7 @@ const Projects = () => {
                     target="_blank"
                   >
                   </a>
-                </a>
+                </div>
               </div>
               <div>
                 <p>React</p>
@@ -96,7 +96,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <img className="pros-img" src="nova.png" alt="" srcset="" />
+          <img className="pros-img" src="nova.png" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
         <div className="pros">
@@ -111,10 +111,10 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a href="" target="_blank">
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
 
-                <a id={"proj-image-gallery"} href="/">
+                <div id={"proj-image-gallery"} href="/">
                   <a
                     href="nova.png"
                     data-pswp-width={"1320"}
@@ -122,9 +122,9 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
-                </a>
+                </div>
               </div>
               <div>
                 <p>React</p>
@@ -151,10 +151,10 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a href="" target="_blank">
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
 
-                <a id={"proj-image-gallery"} href="/">
+                <div id={"proj-image-gallery"} href="/">
                   <a
                     href="nova.png"
                     data-pswp-width={"1320"}
@@ -162,9 +162,9 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
-                </a>
+                </div>
               </div>
               <div>
                 <p>React</p>
@@ -191,9 +191,9 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a href="" target="_blank">
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
-                <a id={"proj-image-gallery"} href="/">
+                <div id={"proj-image-gallery"} href="/">
                   <a
                     href="nova.png"
                     data-pswp-width={"1320"}
@@ -201,9 +201,9 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
-                </a>
+                </div>
               </div>
               <div>
                 <p>React</p>
@@ -233,10 +233,10 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a href="" target="_blank">
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
 
-                <a id={"proj-image-gallery"} href="/">
+                <div id={"proj-image-gallery"} href="/">
                   <a
                     href="nova.png"
                     data-pswp-width={"1320"}
@@ -244,9 +244,9 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
-                </a>
+                </div>
               </div>
               <div>
                 <p>React</p>
@@ -257,7 +257,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <img className="pros-img" src="tesla.jpg" alt="" srcset="" />
+          <img className="pros-img" src="tesla.jpg" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
         <div className="pros">
@@ -272,9 +272,9 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a href="" target="_blank">
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
-                <a id={"proj-image-gallery"} href="/">
+                <div id={"proj-image-gallery"} href="/">
                   <a
                     href="nova.png"
                     data-pswp-width={"1320"}
@@ -282,9 +282,9 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
-                </a>
+                </div>
               </div>
               <div>
                 <p>React</p>
@@ -311,10 +311,10 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a href="" target="_blank">
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
 
-                <a id={"proj-image-gallery"} href="/">
+                <div id={"proj-image-gallery"} href="/">
                   <a
                     href="nova.png"
                     data-pswp-width={"1320"}
@@ -322,9 +322,9 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
-                </a>
+                </div>
               </div>
               <div>
                 <p>React</p>
@@ -351,9 +351,9 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a href="" target="_blank">
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
-                <a id={"proj-image-gallery"} href="/">
+                <div id={"proj-image-gallery"} href="/">
                   <a
                     href="nova.png"
                     data-pswp-width={"1320"}
@@ -361,9 +361,9 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
-                </a>
+                </div>
               </div>
               <div>
                 <p>React</p>
