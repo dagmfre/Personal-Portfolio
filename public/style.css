@@ -1430,6 +1430,7 @@ i {
   top: 12%;
   right: 17px;
   transition: all 0.3s;
+  opacity: 0;
 }
 .tilt:hover p {
   opacity: 1;
