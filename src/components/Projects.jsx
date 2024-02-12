@@ -42,7 +42,7 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a
-                  href="https://nova-cars.onrender.com/"
+                  href="https://nova-cars.onrender.com"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -136,7 +136,11 @@ const Projects = () => {
             </div>
             <div className="pros-desc">
               <div>
-                <a href="/#" rel="noreferrer" target="_blank">
+                <a
+                  href="https://netflix-app-clonee.vercel.app"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
                 <a
@@ -165,6 +169,30 @@ const Projects = () => {
                   ></a>
                   <a
                     href="netflix5.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"614.5546 pt"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+
+                  <a
+                    href="netflix5b.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"614.5546 pt"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+
+                  <a
+                    href="netflix5c.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"614.5546 pt"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+
+                  <a
+                    href="netflix5d.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"614.5546 pt"}
                     rel="noreferrer"
