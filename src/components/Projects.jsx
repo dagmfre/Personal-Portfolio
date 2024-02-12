@@ -146,7 +146,7 @@ const Projects = () => {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://github.com/dagmfre/Netlix_Clone_App"
+                  href="https://github.com/dagmfre/Netflix"
                 >
                   <i className="fa-brands fa-github"></i>
                 </a>
