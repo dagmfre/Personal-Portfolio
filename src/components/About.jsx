@@ -44,6 +44,7 @@ const About = () => {
           options={defaultOptions}
           style={{ height: "auto", width: "auto" }}
         >
+          <p data-aos="fade-right">Hover Me</p>
           <img data-aos="fade-right" className="photo" src="photo.png" alt="" />
         </Tilt>
 

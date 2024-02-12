@@ -2,12 +2,6 @@
   margin: 0;
   padding: 0;
 }
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; 
- 
-#coding font!!
-font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;*/
 html {
   scroll-behavior: cubic-bezier(0.1, 0.7, 1, 0.1);
 }
@@ -1437,6 +1431,9 @@ i {
   right: 17px;
   transition: all 0.3s;
 }
+.tilt:hover p {
+  opacity: 1;
+}  
 .photo {
   max-width: 400px;
   margin: 0 1rem 1px;
