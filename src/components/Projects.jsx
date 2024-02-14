@@ -263,11 +263,12 @@ const Projects = () => {
             <div>
               <h4>Bloggerhub</h4>
               <p>
-                To empower people to share their thoughts easily, connect with
-                others, and potentially grow their online presence...
+                A dynamic and easy-to-use platform for creating and sharing
+                blogs to empower people to share their thoughts easily, connect
+                with others, and potentially grow their online presence...
                 <i className="click">
                   (click the 'search' icon below to learn more)
-                </i> 
+                </i>
               </p>
             </div>
             <div className="pros-desc">
