@@ -243,7 +243,8 @@ const Projects = () => {
                 </div>
               </div>
               <div>
-                <p>React</p>
+                <p>Ejs</p>
+                <p>JavaScript</p>
                 <p>Node</p>
                 <p>Express</p>
                 <br />
@@ -253,7 +254,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <img className="pros-img" src="netflix-a.png" alt="" srcSet="" />
+          <img className="pros-img" src="blog.jpg" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
         <div className="pros">
