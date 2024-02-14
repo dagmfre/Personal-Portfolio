@@ -256,6 +256,91 @@ const Projects = () => {
           <img className="pros-img" src="netflix-a.png" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
+        <div className="pros">
+          <div className="pros-front">
+            {" "}
+            <div>
+              <h4>Bloggerhub</h4>
+              <p>
+                To empower people to share their thoughts easily, connect with
+                others, and potentially grow their online presence...
+                <i className="click">
+                  (click the 'search' icon below to learn more)
+                </i> 
+              </p>
+            </div>
+            <div className="pros-desc">
+              <div>
+                <a
+                  href="https://blogger-hub.up.railway.app"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/dagmfre/Bloggerhub"
+                >
+                  <i className="fa-brands fa-github"></i>
+                </a>
+                <div id="proj-image-gallery" href="/#">
+                  <a
+                    href="blog_cover.jpg"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"614.5546 pt"}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
+                  </a>
+                  <a
+                    href="blog.jpg"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"614.5546 pt"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="blog2.jpg"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"614.5546 pt"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+
+                  <a
+                    href="blog3.jpg"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"614.5546 pt"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+
+                  <a
+                    href="blog4.jpg"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"614.5546 pt"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+              <div>
+                <p>React</p>
+                <p>Node</p>
+                <p>Express</p>
+                <br />
+                <p>mongoDB</p>
+                <p>Passport.js</p>
+                <p>Bootsrap</p>
+              </div>
+            </div>
+          </div>
+          <img className="pros-img" src="netflix-a.png" alt="" srcSet="" />
+          <div className="pros-back"></div>
+        </div>
       </div>
     </div>
   );
