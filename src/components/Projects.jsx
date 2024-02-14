@@ -243,8 +243,7 @@ const Projects = () => {
                 </div>
               </div>
               <div>
-                <p>Ejs</p>
-                <p>JavaScript</p>
+                <p>React</p>
                 <p>Node</p>
                 <p>Express</p>
                 <br />
@@ -254,7 +253,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <img className="pros-img" src="blog.jpg" alt="" srcSet="" />
+          <img className="pros-img" src="netflix-a.png" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
         <div className="pros">
@@ -263,12 +262,12 @@ const Projects = () => {
             <div>
               <h4>Bloggerhub</h4>
               <p>
-                A dynamic and easy-to-use platform for creating and sharing
+              A dynamic and easy-to-use platform for creating and sharing
                 blogs to empower people to share their thoughts easily, connect
                 with others, and potentially grow their online presence...
                 <i className="click">
                   (click the 'search' icon below to learn more)
-                </i>
+                </i> 
               </p>
             </div>
             <div className="pros-desc">
@@ -330,17 +329,16 @@ const Projects = () => {
                 </div>
               </div>
               <div>
-                <p>React</p>
+                <p>Ejs</p>
                 <p>Node</p>
                 <p>Express</p>
-                <br />
+                <p>JavaScript</p>
                 <p>mongoDB</p>
-                <p>Passport.js</p>
                 <p>Bootsrap</p>
               </div>
             </div>
           </div>
-          <img className="pros-img" src="netflix-a.png" alt="" srcSet="" />
+          <img className="pros-img" src="blog.png" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
       </div>
