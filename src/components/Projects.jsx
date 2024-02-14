@@ -196,7 +196,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <img className="pros-img" src="nova.png" alt="" srcSet="" />
+          <img className="pros-img" src="nov1.png" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
         <div className="pros">
