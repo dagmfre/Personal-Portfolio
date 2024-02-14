@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="footer">
-      <img src="logob.svg" alt="" />
+      <img src="logob.png" alt="" />
       <p>Copyright © 2023 Dagmfre Seid.</p>
       <div className="contact-icons">
         <a href="https://github.com/dagmfre">
