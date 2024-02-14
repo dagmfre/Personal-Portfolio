@@ -66,37 +66,115 @@ const Projects = () => {
                     <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
                   <a
-                    href="nova.png"
+                    href="nov1.png"
                     data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
+                    data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
                   ></a>
                   <a
-                    href="nova2.png"
+                    href="nov2.png"
                     data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546"}
+                    data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
                   ></a>
                   <a
-                    href="nova3.png"
+                    href="nov3.png"
                     data-pswp-width={"1320 "}
-                    data-pswp-height={"920.5812"}
+                    data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
                   ></a>
                   <a
-                    href="nova4.png"
+                    href="nov4.png"
                     data-pswp-width={"1320"}
-                    data-pswp-height={"735"}
+                    data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
                   ></a>
                   <a
-                    href="nova5.png"
+                    href="nov5.png"
                     data-pswp-width={"1320"}
-                    data-pswp-height={"610.1887"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov6.png"
+                    data-pswp-width={"1320 "}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov7.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov8.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov9.png"
+                    data-pswp-width={"1320 "}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov10.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov11.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                 
+                  <a
+                    href="nov12.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov13.png"
+                    data-pswp-width={"1320 "}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov14.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov15.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="nov16.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
                   ></a>
