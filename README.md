@@ -1,8 +1,6 @@
 # Netflix Clone
 An interactive personal portfolio showcasing my skills, projects, and journey in software development and design.
 
-![image](https://github.com/dagmfre/Personal-Portfolio/assets/96683816/e6b7f7f7-cb79-4d58-8f08-f8efb01fe192)
-
 ## QUICK START
  Live Demo🔗: [Click me](https://dagmfre-seid.vercel.app)
 
