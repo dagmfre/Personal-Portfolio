@@ -16,4 +16,4 @@ An interactive personal portfolio showcasing my skills, projects, and journey in
 ![image](https://github.com/dagmfre/Personal-Portfolio/assets/96683816/15748244-98b9-4d28-880e-fb55e41e4cde)
 ![image](https://github.com/dagmfre/Personal-Portfolio/assets/96683816/837708f0-5a7d-41b1-ad6f-3c2a7bc09e29)
 ![image](https://github.com/dagmfre/Personal-Portfolio/assets/96683816/cfb171cf-d88f-46a3-9360-e246342e7349)
-![image](https://github.com/dagmfre/Personal-Portfolio/assets/96683816/a941536c-910d-4c22-a813-4de8e58d4f40)
+![image](https://github.com/dagmfre/Personal-Portfolio/assets/96683816/18c366f2-324f-481b-8dcf-93eeea295ab4)
