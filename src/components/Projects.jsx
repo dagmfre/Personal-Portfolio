@@ -42,7 +42,7 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a
-                  href="https://nova-cars.onrender.com"
+                  href="https://nova-cars.vercel.app"
                   rel="noreferrer"
                   target="_blank"
                 >
