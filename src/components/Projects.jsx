@@ -351,7 +351,7 @@ const Projects = () => {
             <div className="pros-desc">
               <div>
                 <a
-                  href="https://blogger-hub.up.railway.app"
+                  href="https://blogger-hub-ten.vercel.app/"
                   rel="noreferrer"
                   target="_blank"
                 >
