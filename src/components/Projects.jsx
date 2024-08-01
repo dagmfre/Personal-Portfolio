@@ -57,21 +57,14 @@ const Projects = () => {
                 </a>
                 <div id="proj-image-gallery" href="/#">
                   <a
-                    href="nova-descrp.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
-                  <a
                     href="nov1.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
-                  ></a>
+                  >
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
+                  </a>
                   <a
                     href="nov2.png"
                     data-pswp-width={"1320"}
@@ -142,7 +135,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   ></a>
-                 
+
                   <a
                     href="nov12.png"
                     data-pswp-width={"1320"}
@@ -230,7 +223,7 @@ const Projects = () => {
                 </a>
                 <div id="proj-image-gallery" href="/#">
                   <a
-                    href="netflix-descrp.png"
+                    href="netflix4.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"614.5546 pt"}
                     rel="noreferrer"
@@ -238,13 +231,6 @@ const Projects = () => {
                   >
                     <i className="fa-solid fa-magnifying-glass-plus"></i>
                   </a>
-                  <a
-                    href="netflix4.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
                   <a
                     href="netflix5.png"
                     data-pswp-width={"1320"}
@@ -331,7 +317,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <img className="pros-img" src="netflix-a.png" alt="" srcSet="" />
+          <img className="pros-img" src="netflix4.png" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
         <div className="pros">
@@ -340,12 +326,12 @@ const Projects = () => {
             <div>
               <h4>Bloggerhub</h4>
               <p>
-              A dynamic and easy-to-use platform for creating and sharing
+                A dynamic and easy-to-use platform for creating and sharing
                 blogs to empower people to share their thoughts easily, connect
                 with others, and potentially grow their online presence...
                 <i className="click">
                   (click the 'search' icon below to learn more)
-                </i> 
+                </i>
               </p>
             </div>
             <div className="pros-desc">
