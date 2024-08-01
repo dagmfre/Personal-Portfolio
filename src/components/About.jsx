@@ -44,7 +44,7 @@ const About = () => {
           options={defaultOptions}
           style={{ height: "auto", width: "auto" }}
         >
-          <p data-aos="fade-right">Hover Me</p>
+          <p data-aos="fade-right">Hover Over</p>
           <img data-aos="fade-right" className="photo" src="photo.png" alt="" />
         </Tilt>
 
@@ -133,44 +133,37 @@ const About = () => {
           >
             <div className="skill-cont1">
               <div data-aos="fade-right" className="skill-icon">
-                <img src="html.png" alt="" /> <p>HTML 5</p>
+                <img className="ts" src="ts.svg" alt="" /> <p>TypeScript</p>
               </div>
-              <div data-aos="fade-right" className="skill-icon">
-                <img src="css.png" alt="" /> <p>CSS 3</p>
-              </div>
-              <div data-aos="fade-right" className="skill-icon">
-                <img src="bootstrap.png" alt="" /> <p>Bootstrap</p>
-              </div>
-              <div data-aos="fade-right" className="skill-icon">
-                <img src="js.png" alt="" /> <p>Javascript</p>
-              </div>
-              <div data-aos="fade-right" className="skill-icon">
-                <img src="jQuery.png" alt="" /> <p>jQuery</p>
-              </div>
-              <div data-aos="fade-right" className="skill-icon">
-                <img src="ejs.png" alt="" /> <p>EJS</p>
-              </div>
-
-              <div data-aos="fade-right" className="skill-icon">
+              <div data-aos="fade-right redux" className="skill-icon">
                 <img src="react.png" alt="" /> <p>React.js</p>
               </div>
-              <div data-aos="fade-right" className="skill-icon">
-                <img src="mui.png" alt="" /> <p>MUI</p>
+              <div data-aos="fade-right" className="skill-icon ">
+                <img className="redux" src="redux.svg" alt="" /> <p>Redux</p>
               </div>
               <div data-aos="fade-right" className="skill-icon">
                 <img src="node1.png" alt="" /> <p>Node.js</p>
               </div>
               <div data-aos="fade-right" className="skill-icon">
-                <img src="exp.png" alt="" /> <p>Express.js</p>
+                <img src="mongo.png" alt="" /> <p>MongoDB</p>
               </div>
               <div data-aos="fade-right" className="skill-icon">
-                <img src="mongo.png" alt="" /> <p>MongoDB</p>
+                <img src="bootstrap.png" alt="" /> <p>Bootstrap</p>
+              </div>
+              <div data-aos="fade-right" className="skill-icon">
+                <img src="jQuery.png" alt="" /> <p>jQuery</p>
+              </div>
+              <div data-aos="fade-right" className="skill-icon">
+                <img src="mui.png" alt="" /> <p>MUI</p>
+              </div>
+              <div data-aos="fade-right" className="skill-icon">
+                <img src="exp.png" alt="" /> <p>Express.js</p>
               </div>
               <div data-aos="fade-right" className="skill-icon">
                 <img src="mysql.svg" alt="" />
               </div>
               <div data-aos="fade-right" className="skill-icon">
-                <img src="npm.png" alt="" /> <p>NPM</p>
+                <img className="docker" src="docker.png" alt="" /> <p>docker</p>
               </div>
               <div data-aos="fade-right" className="skill-icon">
                 <img src="git.png" alt="" /> <p>git</p>
