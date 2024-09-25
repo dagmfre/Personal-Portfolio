@@ -59,7 +59,7 @@ const Contact = () => {
           <div data-aos="fade-right" className="contc-info-cont phone-cont">
             <i className="fa-solid fa-phone-volume"></i>
             <div>
-              <p className="contc-info phone">+251 965555075</p>
+              <p className="contc-info phone">+251 902250378</p>
               <p className="contc-info phone">+251 913645440</p>
             </div>
           </div>
