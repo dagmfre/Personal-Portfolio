@@ -267,6 +267,20 @@ const Projects = () => {
                     target="_blank"
                   ></a>
                   <a
+                    href="emsa-cer1.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="emsa-cer2.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
                     href="emsa8.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
@@ -297,34 +311,6 @@ const Projects = () => {
 
                   <a
                     href="emsa12.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa13.png"
-                    data-pswp-width={"1320 "}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa14.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa15.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa16.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
                     rel="noreferrer"
