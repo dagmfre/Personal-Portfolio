@@ -751,7 +751,7 @@ i {
   border-radius: 50%;
 }
 .project {
-  background-color: #1f2735;
+  background-color: transparent;
   display: grid;
   position: relative;
   z-index: -1;
@@ -2497,6 +2497,7 @@ ul {
 }
 .experience {
   padding: 10rem 3rem 5rem;
+  background-color: #1f2735;
 }
 @media (max-width: 767px) {
   .footer-col {

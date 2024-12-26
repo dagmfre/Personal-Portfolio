@@ -9,6 +9,7 @@ import { Card, CardContent, Typography } from "@mui/material";
 import WorkIcon from "@mui/icons-material/Work";
 import CodeIcon from "@mui/icons-material/Code";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
+import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
 
 const ExperienceTimeline = () => {
   const experiences = [
@@ -52,7 +53,7 @@ const ExperienceTimeline = () => {
     <div className="experience">
       <div className="pros-title">
         <h1>|</h1>
-        <h3>Experience</h3>
+        <h3>Real World Experiences</h3>
         <hr />
       </div>
 
@@ -98,17 +99,33 @@ const ExperienceTimeline = () => {
               }}
               color="text.secondary"
             >
-              <p
+              <div
                 style={{
-                  margin: "0",
-                  fontSize: "1.2rem",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  maxWidth: "max-content",
                   padding: "5px 20px",
-                  borderRadius: "5px",
                   backgroundColor: "#212b39",
+                  borderRadius: "5px",
                 }}
               >
-                {exp.period}
-              </p>
+                <CalendarMonthOutlinedIcon
+                  className="calendar-icon"
+                  sx={{
+                    marginRight: "0.5rem",
+                    verticalAlign: "middle",
+                  }}
+                />
+                <p
+                  style={{
+                    margin: "0",
+                    fontSize: "1.2rem",
+                  }}
+                >
+                  {exp.period}
+                </p>
+              </div>
             </TimelineOppositeContent>
             <TimelineSeparator sx={{ margin: "0 3rem" }}>
               <TimelineDot
