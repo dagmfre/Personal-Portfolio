@@ -2495,6 +2495,9 @@ ul {
   background-color: #090d18b5;
   padding: 40px 0 0;
 }
+.experience {
+  padding: 10rem 3rem 5rem;
+}
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;

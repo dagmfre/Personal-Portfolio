@@ -6,6 +6,8 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { useEffect, useState } from "react";
+import ExperienceTimeline from "./Experience";
+import Header from "./Header";
 
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -13,6 +15,15 @@ function Home() {
   useEffect(() => {
     setTimeout(() => setIsLoading(false), 5000);
   }, []);
+
+  const [isClicked, setIsClicked] = useState(false);
+
+  function clickHandler() {
+    setIsClicked(true);
+    setTimeout(() => {
+      setIsClicked(false);
+    }, 700);
+  }
 
   return (
     <>
@@ -22,11 +33,13 @@ function Home() {
         </div>
       ) : (
         <div className="main-container">
+          <Header isClicked={isClicked} clickHandler={clickHandler} />
           <Hero data-aos="fade-up" />
           <Bg data-aos="fade-right" />
           <About />
           <Service />
           <Projects />
+          <ExperienceTimeline />
           <Contact />
           <Footer />
         </div>
