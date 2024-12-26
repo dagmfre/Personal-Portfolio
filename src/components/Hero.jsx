@@ -118,7 +118,7 @@ function Hero() {
                     <a href="#contact">Contact</a>
                   </li>
                   <li className="li li5">
-                    <a className="resume2" href="resume.pdf">
+                    <a className="resume2" href="resume2.pdf">
                       Resume
                     </a>
                   </li>
@@ -140,7 +140,7 @@ function Hero() {
                   transition: "all 0.5s",
                 }}
                 onClick={clickHandler}
-                href="resume.pdf"
+                href="resume2.pdf"
               >
                 <p>
                   <span></span>Resume<span></span>
