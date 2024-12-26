@@ -18,11 +18,11 @@ const ExperienceTimeline = () => {
       company: "Addis Software",
       period: "06/2024 - 09/2024",
       achievements: [
-        "Translated design prototypes into interactive interfaces for ERP modules like Employee, Payroll, Attendance, and Reports, improving task navigation efficiency by 20%.",
-        "Collaborated with back-end teams to design role-based workflows, including employee/admin authentication and data filtering, enhancing system usability.",
-        "Enhanced system performance by introducing lazy loading and UI optimizations, reducing page load time by 15% across key modules.",
-        "Optimized code quality through regular reviews and adherence to best practices.",
-        "Worked closely with the design team to ensure a consistent UI and UX, which strengthened my communication skills.",
+        "Translated design prototypes into interactive interfaces for ERP modules like Employee, Payroll, Attendance, and Reports, improving task navigation efficiency by 20%",
+        "Collaborated with back-end teams to design role-based workflows, including employee/admin authentication and data filtering, enhancing system usability",
+        "Enhanced system performance by introducing lazy loading and UI optimizations, reducing page load time by 15% across key modules",
+        "Optimized code quality through regular reviews and adherence to best practices",
+        "Worked closely with the design team to ensure a consistent UI and UX, which strengthened my communication skills",
       ],
       icon: <WorkIcon />,
     },
@@ -31,9 +31,9 @@ const ExperienceTimeline = () => {
       company: "EMSA ETHIOPIA",
       period: "03/2024 - 06/2024",
       achievements: [
-        "Developed a responsive multi-page web app for Ethiopian Medical Student Association (EMSA) with a focus on improving branding & user engagement.",
-        "Developed a digital certificate feature that allows students to receive certifications electronically, reducing manual certificate processing time by 40%.",
-        "Integrated SEO best practices which result 15% faster page load times and improved search engine rankings.",
+        "Developed a responsive multi-page web app for Ethiopian Medical Student Association (EMSA) with a focus on improving branding & user engagement",
+        "Developed a digital certificate feature that allows students to receive certifications electronically, reducing manual certificate processing time by 40%",
+        "Integrated SEO best practices which result 15% faster page load times and improved search engine rankings",
       ],
       icon: <CodeIcon />,
     },
@@ -42,8 +42,8 @@ const ExperienceTimeline = () => {
       company: "Mahibere Kidusan (Ethio MK)",
       period: "Present",
       achievements: [
-        "Developing a dynamic registration system for new members to explore and join different sections of the Ethiopian Orthodox Christians Association, aiming to increase membership sign-ups by 20%.",
-        "Building a ticket management feature to track spiritual trip bookings, enhancing event planning.",
+        "Developing a dynamic registration system for new members to explore and join different sections of the Ethiopian Orthodox Christians Association, aiming to increase membership sign-ups by 20%",
+        "Building a ticket management feature to track spiritual trip bookings, enhancing event planning",
       ],
       icon: <DeveloperModeIcon />,
     },
@@ -105,7 +105,7 @@ const ExperienceTimeline = () => {
                   alignItems: "center",
                   justifyContent: "center",
                   maxWidth: "max-content",
-                  padding: "5px 20px",
+                  padding: "10px 20px",
                   backgroundColor: "#212b39",
                   borderRadius: "5px",
                 }}
@@ -121,6 +121,7 @@ const ExperienceTimeline = () => {
                   style={{
                     margin: "0",
                     fontSize: "1.2rem",
+                    lineHeight: "normal",
                   }}
                 >
                   {exp.period}
