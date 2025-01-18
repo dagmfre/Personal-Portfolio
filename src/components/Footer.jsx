@@ -29,7 +29,7 @@ const Footer = () => {
           <p>Certificate</p>
         </a>
         <p>|</p>
-        <a href="./resume2.pdf">
+        <a href="./resume.pdf">
           <p>Resume</p>
         </a>
       </div>

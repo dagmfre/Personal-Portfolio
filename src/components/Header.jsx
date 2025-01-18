@@ -114,7 +114,7 @@ function Header({ isClicked, clickHandler }) {
                 <a href="#contact">Contact</a>
               </li>
               <li className="li li6">
-                <a className="resume2" href="resume2.pdf">
+                <a className="resume2" href="resume.pdf">
                   Resume
                 </a>
               </li>
@@ -131,7 +131,7 @@ function Header({ isClicked, clickHandler }) {
               transition: "all 0.5s",
             }}
             onClick={clickHandler}
-            href="resume2.pdf"
+            href="resume.pdf"
           >
             <p>
               <span></span>Resume<span></span>
