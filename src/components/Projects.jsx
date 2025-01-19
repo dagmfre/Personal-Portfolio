@@ -398,20 +398,6 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   ></a>
-                  <a
-                    href="sonic6.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="sonic7.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
                 </div>
               </div>
               <div>
