@@ -332,6 +332,105 @@ const Projects = () => {
         <div className="pros">
           <div className="pros-front">
             <div>
+              <h4>Sonic</h4>
+              <p>
+                A dynamic web app that fetches songs from the Deezer API to
+                explore various categories of music, including Top Albums,
+                Popular Artists, and Top Tracks. Users can also personalize
+                their experience by adding songs to their favorites list and
+                uploading their own music...
+                <i className="click">
+                  (click the 'search' icon below to learn more)
+                </i>
+              </p>
+            </div>
+            <div className="pros-desc">
+              <div>
+                <a
+                  href="https://sonic-client.onrender.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/dagmfre/Sonic_Client"
+                >
+                  <i className="fa-brands fa-github"></i>
+                </a>
+                <div id="proj-image-gallery" href="/#">
+                  <a
+                    href="sonic1.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
+                  </a>
+                  <a
+                    href="sonic2.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="sonic3.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="sonic4.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="sonic5.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="sonic6.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="sonic7.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+              <div>
+                <p>React</p>
+                <p>Node</p>
+                <p>Express</p>
+                <br />
+                <p>mongoDB</p>
+                <p>Passport.js</p>
+                <p>Bootsrap</p>
+              </div>
+            </div>
+          </div>
+          <img className="pros-img" src="netflix4.png" alt="" srcSet="" />
+          <div className="pros-back"></div>
+        </div>
+        <div className="pros">
+          <div className="pros-front">
+            <div>
               <h4>Complete Netflix Clone</h4>
               <p>
                 This project is a complete Netflix clone built with the MERN
