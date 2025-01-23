@@ -25,8 +25,12 @@ const Footer = () => {
           <p>Portfolio</p>
         </a>
         <p>|</p>
-        <a href="./certificate.pdf">
-          <p>Certificate</p>
+        <a
+          href="https://www.udemy.com/certificate/UC-35c4eff6-9b62-440e-9503-e603a3615c93/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Certificate</p>{" "}
         </a>
         <p>|</p>
         <a href="./resume.pdf">

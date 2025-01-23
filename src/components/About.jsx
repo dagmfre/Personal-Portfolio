@@ -67,9 +67,15 @@ const About = () => {
           course on Udemy, taught by Dr. Angela Yu. This course was a
           game-changer, emphasizing a project-based approach that allowed
           students to gain hands-on coding experience. <br /> <br /> Upon
-          successfully completing the course and recieving my{" "}
+          successfully completing the course and receiving my{" "}
           <span className="main-point">
-            <a href="certificate.pdf">Certificate</a>
+            <a
+              href="https://www.udemy.com/certificate/UC-35c4eff6-9b62-440e-9503-e603a3615c93/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Certificate
+            </a>
           </span>
           , I started building my own projects, and I continue to do so. Today,
           I am seeking a full-time role where I can contribute my skills both in
@@ -228,7 +234,7 @@ const About = () => {
               <img src="develop.png" alt="" />
               <p>
                 <b>Big Projects and Skill Refinement: </b>After finishing the
-                bootcamp and reaciving my certificate, i am focusing on building
+                bootcamp and receiving my certificate, I am focusing on building
                 big projects and honing my problem solving and coding skills
                 using platforms like LeetCode and HackerRank.
               </p>
