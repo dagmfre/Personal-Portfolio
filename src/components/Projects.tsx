@@ -334,150 +334,13 @@ const Projects = () => {
         <div className="pros">
           <div className="pros-front">
             <div>
-              <h4>Ethiopian Medical Students' Association | EMSA</h4>
-              <p>
-                EMSA is a multi-page corporate web app created for the Ethiopian
-                Medical Students' Association (EMSA-Ethiopia). It focuses on
-                clear branding, easy access to information, and simple
-                certificate generation for students...
-                <i className="click">
-                  (click the 'search' icon below to learn more)
-                </i>
-              </p>
-            </div>
-            <div className="pros-desc">
-              <div>
-                <a
-                  href="https://emsaethiopia.com"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-                <div id="proj-image-gallery">
-                  <a
-                    href="emsa1.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
-                  <a
-                    href="emsa2.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa3.png"
-                    data-pswp-width={"1320 "}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa4.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa5.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa6.png"
-                    data-pswp-width={"1320 "}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa7.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa-cer1.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa-cer2.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa8.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa9.png"
-                    data-pswp-width={"1320 "}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa10.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="emsa11.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-
-                  <a
-                    href="emsa12.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                </div>
-              </div>
-              <div>
-                <p>React</p>
-                <p>Node</p>
-                <p>Express</p>
-                <p>MongoDB</p>
-              </div>
-            </div>
-          </div>
-          <img className="pros-img" src="emsa1.png" alt="" srcSet="" />
-          <div className="pros-back"></div>
-        </div>
-        <div className="pros">
-          <div className="pros-front">
-            <div>
               <h4>Addis ERP System</h4>
               <p>
-                An ERP system designed for companies that seamlessly integrates
-                with HansaWorld. In this project, I developed UIs specifically
-                for employee management, payroll automation, tax processing, and
-                attendance tracking....
+                In the Addis Software internship program, we designed and
+                developed an ERP system integrated with HansaWorld to help
+                companies streamline their ERP operations digitally. In this
+                project, I developed UIs specifically for employee management,
+                payroll automation, tax processing, and attendance tracking.....
                 <i className="click">
                   (click the 'search' icon below to learn more)
                 </i>
@@ -508,72 +371,56 @@ const Projects = () => {
                     data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
+                  ></a>
                   <a
                     href="erp-c.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
+                  ></a>
                   <a
                     href="erp-d.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
+                  ></a>
                   <a
                     href="erp-e.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
+                  ></a>
                   <a
                     href="erp-f.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
+                  ></a>
                   <a
                     href="erp-g.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
+                  ></a>
                   <a
                     href="erp-h.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
+                  ></a>
                   <a
                     href="erp-i.png"
                     data-pswp-width={"1320"}
                     data-pswp-height={"619"}
                     rel="noreferrer"
                     target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
+                  ></a>
                 </div>
               </div>
               <div>
