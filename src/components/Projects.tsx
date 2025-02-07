@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 const Projects = () => {
   useEffect(() => {
-    let lightbox = new PhotoSwipeLightbox({
+    let lightbox: PhotoSwipeLightbox | null = new PhotoSwipeLightbox({
       gallery: "#proj-image-gallery",
       children: "a",
       pswpModule: () => import("photoswipe"),
@@ -12,7 +12,9 @@ const Projects = () => {
     lightbox.init();
 
     return () => {
-      lightbox.destroy();
+      if (lightbox) {
+        lightbox.destroy();
+      }
       lightbox = null;
     };
   }, []);
@@ -25,7 +27,6 @@ const Projects = () => {
       </div>
 
       <div data-aos="zoom-up" className="pros-cont">
-        
         <div className="pros">
           <div className="pros-front">
             <div>
@@ -49,7 +50,7 @@ const Projects = () => {
                 >
                   <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
-                <div id="proj-image-gallery" href="/#">
+                <div id="proj-image-gallery">
                   <a
                     href="emsa1.png"
                     data-pswp-width={"1320"}
@@ -194,7 +195,7 @@ const Projects = () => {
                 >
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <div id="proj-image-gallery" href="/#">
+                <div id="proj-image-gallery">
                   <a
                     href="nov1.png"
                     data-pswp-width={"1320"}
@@ -353,7 +354,7 @@ const Projects = () => {
                 >
                   <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
-                <div id="proj-image-gallery" href="/#">
+                <div id="proj-image-gallery">
                   <a
                     href="emsa1.png"
                     data-pswp-width={"1320"}
@@ -491,7 +492,7 @@ const Projects = () => {
                 >
                   <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
-                <div id="proj-image-gallery" href="/#">
+                <div id="proj-image-gallery">
                   <a
                     href="erp-a.png"
                     data-pswp-width={"1320"}
@@ -619,7 +620,7 @@ const Projects = () => {
                 >
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <div id="proj-image-gallery" href="/#">
+                <div id="proj-image-gallery">
                   <a
                     href="sonic1.png"
                     data-pswp-width={"1320"}
@@ -701,7 +702,7 @@ const Projects = () => {
                 >
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <div id="proj-image-gallery" href="/#">
+                <div id="proj-image-gallery">
                   <a
                     href="netflix4.png"
                     data-pswp-width={"1320"}
@@ -830,7 +831,7 @@ const Projects = () => {
                 >
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <div id="proj-image-gallery" href="/#">
+                <div id="proj-image-gallery">
                   <a
                     href="blog_cover.jpg"
                     data-pswp-width={"1320"}

@@ -35,7 +35,6 @@ function Hero() {
                       "<i className='fas fa-solid fa-object-ungroup'></i>UI/UX Enthusiast.",
                     ]}
                     typeSpeed={90}
-                    delaySpeed={90}
                     backSpeed={20}
                     contentType={"html"}
                     loop

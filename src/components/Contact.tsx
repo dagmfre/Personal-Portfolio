@@ -6,27 +6,29 @@ import emailjs from "@emailjs/browser";
 const Contact = () => {
   const [isButtonClicked, setIsButtonClicked] = useState(false);
 
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_mrs2gmr",
-        "template_6skq7dq",
-        form.current,
-        "2vAafyWokU5vCYmE9"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("set successssfulllyyyyy")
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    if (form.current) {
+      emailjs
+        .sendForm(
+          "service_mrs2gmr",
+          "template_6skq7dq",
+          form.current,
+          "2vAafyWokU5vCYmE9"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            console.log("set successssfulllyyyyy");
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
   };
 
   const clickHandler = () => {
@@ -179,7 +181,7 @@ const Contact = () => {
               width="600"
               height="450"
               style={{ border: "0" }}
-              allowFullScreen=""
+              allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="gmap"
