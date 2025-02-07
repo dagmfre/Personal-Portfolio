@@ -165,6 +165,112 @@ const Projects = () => {
           <img className="pros-img" src="emsa1.png" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
+
+        <div className="pros">
+          <div className="pros-front">
+            <div>
+              <h4>Addis ERP System</h4>
+              <p>
+                In the Addis Software internship program, we developed an ERP
+                system integrated with HansaWorld to help companies streamline
+                their ERP operations digitally. In this project, I developed UIs
+                specifically for employee management, payroll automation, tax
+                processing, and attendance tracking.....
+                <i className="click">
+                  (click the 'search' icon below to learn more)
+                </i>
+              </p>
+            </div>
+            <div className="pros-desc">
+              <div>
+                <a
+                  href="https://git.addissoftware.com/users/sign_in"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <div id="proj-image-gallery">
+                  <a
+                    href="erp-a.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
+                  </a>
+                  <a
+                    href="erp-b.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="erp-c.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="erp-d.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="erp-e.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="erp-f.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="erp-g.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="erp-h.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="erp-i.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+              <div>
+                <p>TypeScript</p>
+                <p>React</p>
+                <p>Node.js</p>
+                <br />
+                <p>MongoDB</p>
+                <p>MUI</p>
+              </div>
+            </div>
+          </div>
+          <img className="pros-img" src="erp-a.png" alt="" srcSet="" />
+          <div className="pros-back"></div>
+        </div>
         <div className="pros">
           <div className="pros-front">
             <div>
@@ -329,111 +435,6 @@ const Projects = () => {
             </div>
           </div>
           <img className="pros-img" src="nov1.png" alt="" srcSet="" />
-          <div className="pros-back"></div>
-        </div>
-        <div className="pros">
-          <div className="pros-front">
-            <div>
-              <h4>Addis ERP System</h4>
-              <p>
-                In the Addis Software internship program, we designed and
-                developed an ERP system integrated with HansaWorld to help
-                companies streamline their ERP operations digitally. In this
-                project, I developed UIs specifically for employee management,
-                payroll automation, tax processing, and attendance tracking.....
-                <i className="click">
-                  (click the 'search' icon below to learn more)
-                </i>
-              </p>
-            </div>
-            <div className="pros-desc">
-              <div>
-                <a
-                  href="https://git.addissoftware.com/users/sign_in"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-                <div id="proj-image-gallery">
-                  <a
-                    href="erp-a.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
-                  <a
-                    href="erp-b.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="erp-c.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="erp-d.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="erp-e.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="erp-f.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="erp-g.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="erp-h.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="erp-i.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                </div>
-              </div>
-              <div>
-                <p>TypeScript</p>
-                <p>React</p>
-                <p>Node.js</p>
-                <br />
-                <p>MongoDB</p>
-                <p>MUI</p>
-              </div>
-            </div>
-          </div>
-          <img className="pros-img" src="erp-a.png" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
         <div className="pros">

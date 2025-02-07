@@ -1,15 +1,61 @@
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
+import Snackbar from "@mui/material/Snackbar";
+import Alert from "@mui/material/Alert";
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import CircularProgress from "@mui/material/CircularProgress";
 
 const Contact = () => {
   const [isButtonClicked, setIsButtonClicked] = useState(false);
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [snackbarMessage, setSnackbarMessage] = useState("");
+  const [snackbarSeverity, setSnackbarSeverity] = useState<"success" | "error">(
+    "success"
+  );
+  const [formErrors, setFormErrors] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [isLoading, setIsLoading] = useState(false);
 
   const form = useRef<HTMLFormElement>(null);
 
+  const validateForm = () => {
+    const errors = { name: "", email: "", message: "" };
+    let isValid = true;
+
+    if (!form.current?.user_name.value) {
+      errors.name = "Name is required";
+      isValid = false;
+    }
+
+    if (!form.current?.user_email.value) {
+      errors.email = "Email is required";
+      isValid = false;
+    } else if (!/\S+@\S+\.\S+/.test(form.current?.user_email.value)) {
+      errors.email = "Email is invalid";
+      isValid = false;
+    }
+
+    if (!form.current?.message.value) {
+      errors.message = "Message is required";
+      isValid = false;
+    }
+
+    setFormErrors(errors);
+    return isValid;
+  };
+
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!validateForm()) {
+      return;
+    }
+
+    setIsLoading(true); // Start loading
 
     if (form.current) {
       emailjs
@@ -21,11 +67,16 @@ const Contact = () => {
         )
         .then(
           (result) => {
-            console.log(result.text);
-            console.log("set successssfulllyyyyy");
+            setSnackbarMessage("Message sent successfully!");
+            setSnackbarSeverity("success");
+            setSnackbarOpen(true);
+            setIsLoading(false); // Stop loading
           },
           (error) => {
-            console.log(error.text);
+            setSnackbarMessage("Failed to send message. Please try again.");
+            setSnackbarSeverity("error");
+            setSnackbarOpen(true);
+            setIsLoading(false); // Stop loading
           }
         );
     }
@@ -37,6 +88,11 @@ const Contact = () => {
       setIsButtonClicked(false);
     }, 500);
   };
+
+  const handleCloseSnackbar = () => {
+    setSnackbarOpen(false);
+  };
+
   return (
     <div className="contact" id="contact">
       <div className="contact-cont">
@@ -129,6 +185,8 @@ const Contact = () => {
                   label="Your Name"
                   type="text"
                   name="user_name"
+                  error={!!formErrors.name}
+                  helperText={formErrors.name}
                 />
                 <TextField
                   data-aos="fade-right"
@@ -137,6 +195,8 @@ const Contact = () => {
                   variant="filled"
                   type="email"
                   name="user_email"
+                  error={!!formErrors.email}
+                  helperText={formErrors.email}
                 />
               </div>
               <TextField
@@ -147,28 +207,36 @@ const Contact = () => {
                 multiline
                 rows={3}
                 name="message"
-                defaultValue="Hi, we need a web developer to integrate payment gateways into our site. How soon can u hop on a call to discuss the project details?"
+                defaultValue="Hi, we need a developer to design and develop a site with payment gateways. How soon can u hop on a call to discuss the project details?"
+                error={!!formErrors.message}
+                helperText={formErrors.message}
               />
               <button
                 type="submit"
                 data-aos="fade-right"
                 className="getin-cont2"
+                disabled={isLoading} // Disable button while sending
               >
                 <div
                   onClick={clickHandler}
                   className={`getin-front getin-front2`}
                 >
-                  <a
-                    className={`${isButtonClicked ? "left-right" : ""}`}
-                    href=""
-                  >
-                    Send Message
-                  </a>
-                  <img
-                    className={`${isButtonClicked ? "left-right" : ""}`}
-                    src="arrow.png"
-                    alt=""
-                  />
+                  {isLoading ? (
+                    <CircularProgress size={24} sx={{ color: "white" }} /> // Show spinner
+                  ) : (
+                    <>
+                      <p
+                        className={`${isButtonClicked ? "left-right" : ""}`}
+                      >
+                        Send Message
+                      </p>
+                      <img
+                        className={`${isButtonClicked ? "left-right" : ""}`}
+                        src="arrow.png"
+                        alt=""
+                      />
+                    </>
+                  )}
                 </div>
                 <div className="getin-back2"></div>
               </button>
@@ -189,6 +257,19 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Snackbar
+        open={snackbarOpen}
+        autoHideDuration={6000}
+        onClose={handleCloseSnackbar}
+      >
+        <Alert
+          onClose={handleCloseSnackbar}
+          severity={snackbarSeverity}
+          sx={{ width: "100%" }}
+        >
+          {snackbarMessage}
+        </Alert>
+      </Snackbar>
     </div>
   );
 };

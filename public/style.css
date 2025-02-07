@@ -279,12 +279,13 @@ i {
   transform: scaleX(1);
   transform-origin: left;
 }
-#bd .getin-front1 a {
+#bd .getin-front1 p {
   margin-top: 13% !important;
   padding-top: inherit !important;
   margin-right: inherit !important;
 }
-#bd .getin-front a {
+#bd .getin-front p {
+  z-index: 10000;
   width: 100%;
   height: 100%;
   padding-top: 14px;
