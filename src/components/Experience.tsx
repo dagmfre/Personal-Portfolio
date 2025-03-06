@@ -27,7 +27,7 @@ const ExperienceTimeline = () => {
       icon: <WorkIcon />,
     },
     {
-      role: "Full-Stack Developer",
+      role: "Full-Stack Development (Freelancing)",
       company: "EMSA ETHIOPIA",
       period: "03/2024 - 06/2024",
       achievements: [
@@ -38,7 +38,18 @@ const ExperienceTimeline = () => {
       icon: <CodeIcon />,
     },
     {
-      role: "Web Application Developer",
+      role: "Frontend Development (Freelancing)",
+      company: "RohaDigitals",
+      period: "Present",
+      achievements: [
+        "Designing and implementing a visually appealing and responsive website to enhance RohaDigitals' online presence",
+        "Integrating advanced animations and motion graphics to create an interactive user experience",
+        "Developing and executing a social media marketing strategy to boost RohaDigitals' social media followers",
+      ],
+      icon: <CodeIcon />,
+    },
+    {
+      role: "Web Application Development (Voluntary)",
       company: "Mahibere Kidusan (Ethio MK)",
       period: "Present",
       achievements: [

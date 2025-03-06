@@ -169,6 +169,122 @@ const Projects = () => {
         <div className="pros">
           <div className="pros-front">
             <div>
+              <h4>RohaDigitals</h4>
+              <p>A site for RohaDigitals company...</p>
+            </div>
+            <div className="pros-desc">
+              <div>
+                <a
+                  href="https://rohadigitals.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+              <div>
+                <p>React</p>
+                <p>Node</p>
+                <p>Express</p>
+                <br />
+                <p>MongoDB</p>
+                <p>Passport.js</p>
+                <p>Bootsrap</p>
+              </div>
+            </div>
+          </div>
+          <img className="pros-img" src="roha.png" alt="" srcSet="" />
+          <div className="pros-back"></div>
+        </div>
+
+        <div className="pros">
+          <div className="pros-front">
+            <div>
+              <h4>Sonic</h4>
+              <p>
+                A dynamic web app that fetches songs from the Deezer API to
+                explore various categories of music, including Top Albums,
+                Popular Artists, and Top Tracks. Users can also personalize
+                their experience by adding songs to their favorites list and
+                uploading their own music...
+                <i className="click">
+                  (click the 'search' icon below to learn more)
+                </i>
+              </p>
+            </div>
+            <div className="pros-desc">
+              <div>
+                <a
+                  href="https://sonic-client.onrender.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/dagmfre/Sonic_Client"
+                >
+                  <i className="fa-brands fa-github"></i>
+                </a>
+                <div id="proj-image-gallery">
+                  <a
+                    href="sonic1.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
+                  </a>
+                  <a
+                    href="sonic2.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="sonic3.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="sonic4.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="sonic5.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                </div>
+              </div>
+              <div>
+                <p>React</p>
+                <p>Node</p>
+                <p>Express</p>
+                <br />
+                <p>MongoDB</p>
+                <p>MUI</p>
+              </div>
+            </div>
+          </div>
+          <img className="pros-img" src="sonic1.png" alt="" srcSet="" />
+          <div className="pros-back"></div>
+        </div>
+
+        <div className="pros">
+          <div className="pros-front">
+            <div>
               <h4>Addis ERP System</h4>
               <p>
                 In the Addis Software internship program, we developed an ERP
@@ -271,6 +387,7 @@ const Projects = () => {
           <img className="pros-img" src="erp-a.png" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
+
         <div className="pros">
           <div className="pros-front">
             <div>
@@ -435,304 +552,6 @@ const Projects = () => {
             </div>
           </div>
           <img className="pros-img" src="nov1.png" alt="" srcSet="" />
-          <div className="pros-back"></div>
-        </div>
-        <div className="pros">
-          <div className="pros-front">
-            <div>
-              <h4>Sonic</h4>
-              <p>
-                A dynamic web app that fetches songs from the Deezer API to
-                explore various categories of music, including Top Albums,
-                Popular Artists, and Top Tracks. Users can also personalize
-                their experience by adding songs to their favorites list and
-                uploading their own music...
-                <i className="click">
-                  (click the 'search' icon below to learn more)
-                </i>
-              </p>
-            </div>
-            <div className="pros-desc">
-              <div>
-                <a
-                  href="https://sonic-client.onrender.com"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/dagmfre/Sonic_Client"
-                >
-                  <i className="fa-brands fa-github"></i>
-                </a>
-                <div id="proj-image-gallery">
-                  <a
-                    href="sonic1.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
-                  <a
-                    href="sonic2.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="sonic3.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="sonic4.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="sonic5.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"619"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                </div>
-              </div>
-              <div>
-                <p>React</p>
-                <p>Node</p>
-                <p>Express</p>
-                <br />
-                <p>MongoDB</p>
-                <p>MUI</p>
-              </div>
-            </div>
-          </div>
-          <img className="pros-img" src="sonic1.png" alt="" srcSet="" />
-          <div className="pros-back"></div>
-        </div>
-        <div className="pros">
-          <div className="pros-front">
-            <div>
-              <h4>Complete Netflix Clone</h4>
-              <p>
-                This project is a complete Netflix clone built with the MERN
-                stack and powered by the TMDB API. It contains features like
-                searching movies and TV shows, adding them to the watchlist...
-                <i className="click">
-                  (click the 'search' icon below to learn more)
-                </i>
-              </p>
-            </div>
-            <div className="pros-desc">
-              <div>
-                <a
-                  href="https://netflix-app-clonee.vercel.app"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/dagmfre/Netflix"
-                >
-                  <i className="fa-brands fa-github"></i>
-                </a>
-                <div id="proj-image-gallery">
-                  <a
-                    href="netflix4.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
-                  <a
-                    href="netflix5.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-
-                  <a
-                    href="netflix5b.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-
-                  <a
-                    href="netflix5c.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-
-                  <a
-                    href="netflix5d.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="netflix-a.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="netflix-b.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="netflix.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="netflix2.png"
-                    data-pswp-width={"1320 "}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="netflix3.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="netflix6.png"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                </div>
-              </div>
-              <div>
-                <p>React</p>
-                <p>Node</p>
-                <p>Express</p>
-                <br />
-                <p>MongoDB</p>
-                <p>Passport.js</p>
-                <p>Bootsrap</p>
-              </div>
-            </div>
-          </div>
-          <img className="pros-img" src="netflix4.png" alt="" srcSet="" />
-          <div className="pros-back"></div>
-        </div>
-        <div className="pros">
-          <div className="pros-front">
-            {" "}
-            <div>
-              <h4>Bloggerhub</h4>
-              <p>
-                A dynamic and easy-to-use platform for creating and sharing
-                blogs to empower people to share their thoughts easily, connect
-                with others, and potentially grow their online presence...
-                <i className="click">
-                  (click the 'search' icon below to learn more)
-                </i>
-              </p>
-            </div>
-            <div className="pros-desc">
-              <div>
-                <a
-                  href="https://blogger-hub-ten.vercel.app/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://github.com/dagmfre/Bloggerhub"
-                >
-                  <i className="fa-brands fa-github"></i>
-                </a>
-                <div id="proj-image-gallery">
-                  <a
-                    href="blog_cover.jpg"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fa-solid fa-magnifying-glass-plus"></i>
-                  </a>
-                  <a
-                    href="blog.jpg"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                  <a
-                    href="blog2.jpg"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-
-                  <a
-                    href="blog3.jpg"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-
-                  <a
-                    href="blog4.jpg"
-                    data-pswp-width={"1320"}
-                    data-pswp-height={"614.5546 pt"}
-                    rel="noreferrer"
-                    target="_blank"
-                  ></a>
-                </div>
-              </div>
-              <div>
-                <p>Ejs</p>
-                <p>Node</p>
-                <p>Express</p>
-                <br />
-                <p>JavaScript</p>
-                <p>MongoDB</p>
-                <p>Bootsrap</p>
-              </div>
-            </div>
-          </div>
-          <img className="pros-img" src="blog.jpg" alt="" srcSet="" />
           <div className="pros-back"></div>
         </div>
       </div>
