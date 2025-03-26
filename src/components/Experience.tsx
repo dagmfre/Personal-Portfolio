@@ -14,6 +14,20 @@ import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined
 const ExperienceTimeline = () => {
   const experiences = [
     {
+      role: "Frontend Developer",
+      company: "Peeps Technologies Pvt. Ltd",
+      period: "03/12/25 - present",
+      achievements: [
+        "Customize Shopify themes to align with brand identity and business needs.",
+        "Develop and optimize UI components for a seamless shopping experience.",
+        "Implement responsive and high-performance front-end solutions.",
+        "Ensure cross-browser compatibility and mobile responsiveness.",
+        "Debug and enhance Shopify Liquid templates and scripts.",
+        "Stay updated with Shopify's latest features and industry trends.",
+      ],
+      icon: <WorkIcon />,
+    },
+    {
       role: "Software Developer Intern",
       company: "Addis Software",
       period: "06/2024 - 09/2024",
