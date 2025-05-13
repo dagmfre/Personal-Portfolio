@@ -30,6 +30,119 @@ const Projects = () => {
         <div className="pros">
           <div className="pros-front">
             <div>
+              <h4>Arma Designs – E-commerce Website (Under Development)</h4>
+              <p>
+                A full-featured e-commerce platform built for Arma Designs, a
+                brand specializing in Ethiopian traditional and modern clothing.
+                The site enables customers to browse collections, place custom
+                orders, and complete secure checkouts. It supports international
+                shipping and offers a smooth shopping experience across
+                devices...
+                <i className="click">
+                  (click the 'search' icon below to learn more)
+                </i>
+              </p>
+            </div>
+            <div className="pros-desc">
+              <div>
+                <a
+                  href="https://armadesigns.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <div id="proj-image-gallery">
+                  <a
+                    href="arma1.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i className="fa-solid fa-magnifying-glass-plus"></i>
+                  </a>
+                  <a
+                    href="arma2.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="arma3.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="arma4.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="arma5.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="arma6.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="arma7.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="arma8.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="arma9.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="arma10.png"
+                    data-pswp-width={"1320"}
+                    data-pswp-height={"619"}
+                    rel="noreferrer"
+                    target="_blank"
+                  ></a>
+                </div>
+                <div>
+                  <p>Liquid</p>
+                  <p>Html</p>
+                  <p>Css</p>
+                  <p>Shopify</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img className="pros-img" src="arma1.png" alt="" srcSet="" />
+          <div className="pros-back"></div>
+        </div>
+
+        <div className="pros">
+          <div className="pros-front">
+            <div>
               <h4>Ethiopian Medical Students' Association | EMSA</h4>
               <p>
                 EMSA is a multi-page corporate web app created for the Ethiopian

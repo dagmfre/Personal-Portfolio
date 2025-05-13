@@ -84,6 +84,22 @@ const ExperienceTimeline = () => {
 
       <Timeline
         sx={{
+          "@media (max-width: 750px)": {
+            padding: 0,
+            gap: "4rem",
+            "& .MuiTimelineSeparator-root": {
+              margin: "auto",
+              order: "-1"
+            },
+            "& .MuiTimelineItem-root": {
+              flexDirection: "column !important",
+            },
+            "& .MuiTypography-root": {
+              flexDirection: "column !important",
+              margin: "1rem auto 2rem !important;",
+              padding: 0,
+            },
+          },
           "& .MuiPaper-root, MuiTypography-root": {
             boxShadow: "2px 2px 6px 1px #00000040",
             backgroundColor: "#212b39",
